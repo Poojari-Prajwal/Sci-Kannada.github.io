@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskannada.css);
+            .i
+            {
+                height: 138px;
+                width:190px;
+                margin-right: 20px;
+                margin-left:35px;
+                margin-top:14px;
+                border: 2px solid white;
+                border-radius: 20px;
+            }
+           #i1
+           {
+               height:110px;
+               width:140px;
+               float:left;
+               margin-left: 280px;
+           }
+           #d0
+           {
+               height:105px;
+           }
+           #s1
+           {
+               float:left;
+               margin-left:20px;
+               margin-top:50px;
+               font-weight: bolder;
+               color:white;
+
+           }
+           #s2
+           {
+               margin-left:80px;
+               font-size: 43;
+               font-weight: bolder;
+               color:white;
+           }
+           body
+           {
+               background-image: url("bg1.gif");
+               background-repeat: no-repeat;
+               background-size: 1400px 640px;
+
+           }
+           .i:hover{
+              border-radius: 400px;
+              transition: 1.5s;
+              border: 2px dashed red;
+              background-color: rgb(69, 112, 230);
+              box-shadow: 0 0 80px rgb(190, 65, 27);
+           }
+           #d3
+           {
+               border: 3px solid white;
+               margin-top:30px;
+               height: 425px;
+               width:900px;
+               border-radius: 50px;
+               display: none;
+               background-repeat: no-repeat;
+               background-size:cover;
+           }
+           button
+           {
+               margin-left:-750px;
+               background-image:linear-gradient(to right, yellow,red); 
+               color:white;
+               font-size: 20;
+               border-radius: 10px;
+               margin-top:10px;
+               height:40px;
+               width:100px;
+           }
+           #para
+           {
+               margin-top:320px;
+               font-size: 40;
+               color:black;
+               font-weight: bolder;
+               background-color: white;
+               width:850px;
+               overflow:hidden;
+               border-radius: 100px;
+               border: 1px solid black;
+           }
+           #btn
+           {
+               margin-top:-450px;
+               margin-left: 750px;
+               width:120px;
+           }
+           @media (max-width: 480px) 
+           {
+             #i1
+             {
+                 margin-left: 0px;
+                 height:90px;
+                 width:100px;
+             }
+             #s2
+             {
+                 margin-left:60px;
+             }
+             body
+             {
+                 background-size: cover;
+             }
+             #s1
+             {
+                 margin-left:0px;
+             }
+             hr 
+             {
+                margin-top:30px;
+             }
+             .i
+             {
+                height: 90px;
+                width:120px;
+                float:left;
+                margin-left:20px;
+             }
+             #i16
+             {
+                 margin-left:100px;
+             }
+             #d3
+             {
+                 width:300px;
+                 height:300px;
+                 background-size:300px 300px;
+             }
+             #para
+             {
+                 width:370px;
+                 margin-top:265px;
+                 font-size: 26;
+                 border-radius: 5px;
+                 margin-left:-30px;
+                 overflow:hidden;
+             }
+             button
+             {
+                margin-left:-180px;
+             }
+             #btn
+             {
+                 margin-top:-15px;
+                 height:50px;
+                 width:143px;
+                 margin-left:50px;
+             }
+           } 
