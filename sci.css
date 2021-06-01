@@ -49,7 +49,7 @@
            }
            body
            {
-               background-color:#2b0f4b;
+               background-image:linear-gradient(to right,#2b0f4b,rgb(10, 122, 167),rgb(86, 77, 224),rgb(10, 122, 167), #2b0f4b );
                background-repeat: no-repeat;
                background-size: 1400px 640px;
 
@@ -132,7 +132,8 @@
                   color:white;
                   font-weight: bolder;
                   font-size: 50;
-                  margin-right:10px;
+                  justify-content: center;
+                  display:flex;
               }
               #us1
               {
@@ -140,6 +141,8 @@
                   font-weight: bolder;
                   margin-left:100px;
                   font-size: 50;
+                  justify-content: center;
+                  display:flex;
               }
              body
              {
