@@ -49,7 +49,7 @@
            }
            body
            {
-               background-image:linear-gradient(to right,#2b0f4b,rgb(10, 122, 167),rgb(86, 77, 224),rgb(10, 122, 167), #2b0f4b );
+               background-image:linear-gradient(to right,#2b0f4b,rgb(86, 77, 224), #2b0f4b );
                background-repeat: no-repeat;
                background-size: 1400px 640px;
 
@@ -75,13 +75,13 @@
            button
            {
                margin-left:-750px;
-               background-image:linear-gradient(to right, yellow,red); 
-               color:white;
+               background-color:white; 
                font-size: 20;
                border-radius: 10px;
                margin-top:10px;
                height:40px;
                width:100px;
+               color:#2b0f4b;
            }
            #para
            {
@@ -103,7 +103,7 @@
            }
            a{
                text-decoration: none;
-               color:white;
+               color:#2b0f4b;
            }
            @media (max-width: 480px) 
            {
@@ -133,7 +133,6 @@
                   font-weight: bolder;
                   font-size: 50;
                   justify-content: center;
-                  display:flex;
               }
               #us1
               {
