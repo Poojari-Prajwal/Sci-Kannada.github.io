@@ -1,4 +1,10 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskannada.css);
+@import url('http://fonts.googleapis.com/earlyaccess/notosanskannada.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+            body
+            {
+                font-family: 'open Sans', 'sans-serief';
+                word-spacing:2px;
+            }
             .i
             {
                 height: 138px;
